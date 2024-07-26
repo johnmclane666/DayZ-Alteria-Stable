@@ -7873,15 +7873,17 @@
     <category name="containers" />
   </type>
   <type name="GP5GasMask">
-    <nominal>5</nominal>
+    <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>3</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="clothes" />
+    <value name="Tier2" />
+    <value name="Tier3" />
     <value name="Tier4" />
     <usage name="Military" />
     <usage name="Underground" />
@@ -7945,24 +7947,27 @@
     <category name="tools" />
   </type>
   <type name="GasMask">
-    <nominal>5</nominal>
+    <nominal>6</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>3</min>
+    <min>4</min>
     <quantmin>20</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="clothes" />
-    <value name="Tier4" />
+    <value name="Tier3" />
     <usage name="Military" />
     <usage name="Underground" />
+    <usage name="Police" />
+    <usage name="Medic" />
+    <usage name="Firefighter" />
   </type>
   <type name="GasMask_Filter">
-    <nominal>7</nominal>
+    <nominal>8</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>6</min>
     <quantmin>20</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -7970,9 +7975,11 @@
     <category name="clothes" />
     <tag name="shelves" />
     <value name="Tier3" />
-    <value name="Tier4" />
     <usage name="Military" />
     <usage name="Underground" />
+    <usage name="Police" />
+    <usage name="Medic" />
+    <usage name="Firefighter" />
   </type>
   <type name="GasMask_Filter_Improvised">
     <nominal>0</nominal>
@@ -13391,10 +13398,10 @@
     <usage name="Historical" />
   </type>
   <type name="MediumGasCanister">
-    <nominal>10</nominal>
+    <nominal>6</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>3</min>
     <quantmin>65</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -14145,10 +14152,10 @@
     <usage name="Industrial" />
   </type>
   <type name="NBCBootsGray">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14160,10 +14167,10 @@
     <usage name="Military" />
   </type>
   <type name="NBCBootsYellow">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14174,10 +14181,10 @@
     <usage name="Firefighter" />
   </type>
   <type name="NBCGlovesGray">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14188,10 +14195,10 @@
     <usage name="Military" />
   </type>
   <type name="NBCGlovesYellow">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14202,10 +14209,10 @@
     <usage name="Firefighter" />
   </type>
   <type name="NBCHoodGray">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14216,10 +14223,10 @@
     <usage name="Military" />
   </type>
   <type name="NBCHoodYellow">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14230,10 +14237,10 @@
     <usage name="Firefighter" />
   </type>
   <type name="NBCJacketGray">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14244,10 +14251,10 @@
     <usage name="Military" />
   </type>
   <type name="NBCJacketYellow">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14258,10 +14265,10 @@
     <usage name="Firefighter" />
   </type>
   <type name="NBCPantsGray">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14272,10 +14279,10 @@
     <usage name="Military" />
   </type>
   <type name="NBCPantsYellow">
-    <nominal>3</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
