@@ -8,22 +8,12 @@
 		<cargo chance="0.16" name="foodVillage">
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
-				<item name="SodaCan_Spite" chance="0.05" />
-											   
-												
-											 
+				<item name="SodaCan_Spite" chance="0.05" />		 
 				<item name="TunaCan" chance="0.08" />
 				<item name="SardinesCan" chance="0.12" />
 				<item name="PeachesCan" chance="0.10" />
 				<item name="SpaghettiCan" chance="0.10" />
-				<item name="BakedBeansCan" chance="0.10" />
-											  
-									   
-									  
-											   
-											 
-										  
-									   
+				<item name="BakedBeansCan" chance="0.10" />					   
 		</cargo>
 		<cargo chance="0.16" name="foodCity"> <!--same as the one above - just preparing -->
 				<item name="SodaCan_Cola" chance="0.05" />

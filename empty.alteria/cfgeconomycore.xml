@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <economycore>
 	<classes>
-
 		<rootclass name="DefaultWeapon" /> <!-- weapons -->
 		<rootclass name="DefaultMagazine" /> <!-- magazines -->
 		<rootclass name="Inventory_Base" /> <!-- inventory items -->
@@ -31,4 +30,8 @@
 		<default name="save_types_startup" value="true"/>
 		<default name="randomloot_deloot_perevent" value="6" /> <!-- <default name="randomloot_deloot_perevent" value="2" /> -->
 	</defaults>
+	<!-- Extra Map Items -->
+	<ce folder="jmc_ce">
+		<file name="types_jmc.xml" type="types" />
+	</ce>
 </economycore>

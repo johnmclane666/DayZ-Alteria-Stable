@@ -35,6 +35,17 @@
 		<usage name="ContaminatedArea"/>		
 		<usage name="Underground"/>		
 		<usage name="MilitaryTower"/>					 
+		<usage name="Historical"/>
+		<!-- Tmp -->					 
+		<usage name="Fortknox"/>					 
+		<usage name="Mine"/>					 
+		<usage name="Temple"/>					 
+		<usage name="TempleCore"/>					 
+		<usage name="PlantsA"/>					 
+		<usage name="PlantsB"/>					 
+		<usage name="PlantsC"/>
+		<usage name="Crypt"/>
+		<!-- /Tmp -->					 
 	</usageflags>
 	<valueflags>
 		<value name="Tier1"/>

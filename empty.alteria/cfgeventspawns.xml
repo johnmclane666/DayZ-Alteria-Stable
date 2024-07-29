@@ -1,8 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <eventposdef>
-  <event name="VehicleCivilianSedan"></event>
-  <event name="VehicleSedan02"></event>
-  <event name="VehicleHatchback02"></event>
+	<event name="Loot" />
+	<event name="InfectedVillage" />
+  <event name="InfectedSolitude" />
+  <event name="InfectedArmy" />
+  <event name="InfectedCity" />
+  <event name="InfectedMedic" />
+  <event name="InfectedPolice" />
+  <event name="InfectedFirefighter" />
+  <event name="InfectedPrisoner" />
+
   <event name="StaticHeliCrash">
     <zone smin="3" smax="5" dmin="5" dmax="8" r="45" />
 		<pos x="7439.047" z="4140.378" a="0" />
@@ -139,13 +146,6 @@
 		<pos x="5005" z="4841.585" a="0" />
 		<pos x="6595.641" z="4902.176" a="0" />
   </event>
-  <event name="StaticChristmasTree"></event>
-  <event name="StaticBonfire"></event>
-  <event name="StaticContaminatedArea">
-    <zone smin="0" smax="0" dmin="5" dmax="8" r="75" />
-  </event>
-  <event name="Loot" />
-  <event name="VehicleOffroadHatchback"></event>
   <event name="StaticPoliceCar">
     <zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
 	<pos x="3812.797" z="4628.74" a="-1" />
@@ -295,23 +295,17 @@
 	<pos x="6371.828" z="3731.429" a="-1" />
 	<pos x="4396.313" z="4861.873" a="-1" />
   </event>
-  <event name="VehicleTruck01"></event>
-  <event name="VehicleTransitBus" />
-  <event name="InfectedVillage" />
-  <event name="InfectedSolitude" />
-  <event name="InfectedArmy" />
-  <event name="InfectedCity" />
-  <event name="InfectedMedic" />
-  <event name="InfectedPolice" />
-  <event name="InfectedFirefighter" />
-  <event name="InfectedPrisoner" />
+
   <event name="AnimalDeer" />
   <event name="AnimalCow" />
   <event name="AnimalSheep" />
   <event name="AnimalRoeDeer" />
   <event name="AnimalWolf" />
   <event name="AnimalWildBoar" />
-  <event name="StaticVanAmbulance"></event>
-  <event name="StaticVanPinkies"></event>
-  <event name="StaticSkeletonEventspawn"></event>
+
+  <event name="VehicleTruck01"></event>
+  <event name="VehicleCivilianSedan"></event>
+  <event name="VehicleSedan02"></event>
+  <event name="VehicleHatchback02"></event>
+  <event name="VehicleOffroadHatchback"></event>
 </eventposdef>
